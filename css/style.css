@@ -1,12 +1,23 @@
 /* Your styles here */
+.font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.2em;
+  width: 450px;
+  height: 750px;
+}
+
 .logo-epicode {
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
-  border: solid black 50px;
-  border-left: solid 170px black;
-  border-right: solid 170px black;
+  border: solid black 30px;
+  border-left: solid 200px black;
+  border-right: solid 200px black;
   margin: auto;
 }
 .main {
@@ -18,4 +29,62 @@
   font-size: 30px;
   margin: auto;
   color: #25a2c3;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.intro {
+  background-image: url(../images/banner.jpg);
+}
+.text {
+  color: #393d41;
+  padding-bottom: 40px;
+}
+.under-tittle {
+  color: #25a2c3;
+  font-weight: 700;
+  padding: 20px;
+}
+#notebook {
+  border-radius: 20px;
+}
+.center-line {
+  background-color: #e22d0e;
+  border: solid #e22d0e 30px;
+}
+#center-line-text {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.text-line-corpoprate {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: 80;
+}
+.text-line-name {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: 80;
+  font-size: 30px;
+  padding: 10px;
+}
+.text-line {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: 80;
+  padding: 20px;
+}
+.bottom-image {
+  margin-top: 50px;
 }
