@@ -30,11 +30,12 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-size: 30px;
+  font-size: 35px;
   margin: auto;
   color: #25a2c3;
   font-weight: 700;
-  padding-top: 15px;
+  padding-top: 35px;
+  padding-bottom: 20px;
 }
 .intro {
   background-image: url(../images/banner.jpg);
@@ -48,6 +49,7 @@
 .text {
   color: #393d41;
   padding-bottom: 40px;
+  padding: 10px;
 }
 .under-tittle {
   font-family: "Montserrat", sans-serif;
